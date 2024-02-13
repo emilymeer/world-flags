@@ -1,0 +1,378 @@
+/* JAPAN */
+.japan-flag{
+    height: 150px;
+    width: 225px;
+    background-color: white;
+    position: relative;
+    border-color: lightgray;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.japan-flag div{
+    width: 100px;
+    height: 100px;
+    background-color: #AC2332;
+    border-radius: 50%;
+    position: relative;
+    top: 16%;
+    left: 28%;
+}
+
+/* INDONESIA */
+.indonesia-flag{
+    width: 225px;
+    height: 150px;
+    background-color: white ;
+    border: .5px solid lightgray;
+}
+
+.indonesia-flag div{
+    width: 225px;
+    height: 75px;
+    background-color: #BD2D2F;
+}
+
+/* BANGLADESH */
+.bangladesh-flag{
+    height: 150px;
+    width: 225px;
+    background-color: #2C6850;
+    position: relative;
+}
+
+.bangladesh-flag div{
+    width: 100px;
+    height: 100px;
+    background-color: #E04148;
+    border-radius: 50%;
+    position: relative;
+    top: 16.5%;
+    left: 18%;
+}
+
+/* BAHRAIN */
+.bahrain-flag {
+    width: 225px;
+    height: 140px;
+    background-color: #BD2D2F;
+    position: absolute;
+    border-color: lightgray;
+    border-style: solid;
+    border-width: .5px;
+}
+
+.bahrain-flag .stripe-vertical{
+    width: 60px;
+    height: 140px;
+    background-color: white;
+}
+
+.triangle1 {
+    width: 0; 
+    height: 0; 
+    border-top: 14px solid transparent;
+    border-bottom: 14px solid transparent;
+    
+    border-left: 40px solid white;
+
+    position: relative;
+    top: -100%;
+    left: 60px;
+}
+
+.triangle2 {
+    width: 0; 
+    height: 0; 
+    border-top: 14px solid transparent;
+    border-bottom: 14px solid transparent;
+    
+    border-left: 40px solid white;
+
+    position: relative;
+    top: -100%;
+    left: 60px;
+}
+
+.triangle3 {
+    width: 0; 
+    height: 0; 
+    border-top: 14px solid transparent;
+    border-bottom: 14px solid transparent;
+    
+    border-left: 40px solid white;
+
+    position: relative;
+    top: -100%;
+    left: 60px;
+}
+
+.triangle4 {
+    width: 0; 
+    height: 0; 
+    border-top: 14px solid transparent;
+    border-bottom: 14px solid transparent;
+    
+    border-left: 40px solid white;
+
+    position: relative;
+    top: -100%;
+    left: 60px;
+}
+
+.triangle5 {
+    width: 0; 
+    height: 0; 
+    border-top: 16px solid transparent;
+    border-bottom: 16px solid transparent;
+    
+    border-left: 40px solid white;
+
+    position: relative;
+    top: -100%;
+    left: 60px;
+}
+
+/* YEMEN */
+.yemen-flag {
+    width: 225px;
+    height: 150px;
+    background-color: #CE1126;
+    position: relative;
+    border: .5px solid lightgray;
+}
+
+.yemen-flag .white-stripe{
+    width: 225px;
+    height: 50px;
+    background-color: white;
+    position: relative;
+    top: 33%;
+}
+
+.yemen-flag .black-stripe{
+    width: 225px;
+    height: 50px;
+    background-color: black;
+    position: relative;
+    top: 50px;
+}
+
+/* THAILAND */
+
+.thailand-flag{
+    width: 225px;
+    height: 150px;
+    background-color: #DA3832;
+    border: .5px solid lightgray;
+    position: relative
+}
+
+.thailand-flag div{
+    width: 225px;
+    height: 50px;
+    background-color: #231D4C;
+    border-top: 25px solid white;
+    border-bottom: 25px solid white;
+    position: relative;
+    top: 25px;
+
+}
+
+/* PALENSTINE */
+.palenstine-flag {
+    width: 226px;
+    height: 40px;
+    background-color: white;
+    border-top: 40px solid black;
+    border-bottom: 40px solid #347843;
+    border-right: .5px solid lightgray;
+    position: relative;
+}
+
+.palenstine-triangle-right {
+    width: 0; 
+    height: 0; 
+    border-top: 60px solid transparent;
+    border-bottom: 60px solid transparent;
+    
+    border-left: 80px solid #BD2D2F;
+
+    position: relative;
+    top: -100%;
+}
+
+/* ARMENIA */
+.armenia-flag{
+    width: 225px;
+    height: 40px;
+    background-color: #0033A0;
+    border-top: 40px solid #D90012;
+    border-bottom: 40px solid #F2A800;
+}
+
+/* RUSSIA */
+.russia-flag{
+    width: 225px;
+    height: 50px;
+    background-color: #0039A6;
+    border-top: 50px solid white;
+    border-bottom: 50px solid #D52B1E;
+}
+
+/* LAOS */
+.laos-flag{
+    width: 225px;
+    height: 75px;
+    background-color: #002868;
+    border-top: 38px solid #C60C30;
+    border-bottom: 38px solid #C60C30;
+    position: relative;
+}
+
+.laos-flag div{
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+    top: 5px;
+    left: 80px;
+}
+
+/* TURKEY */
+.turkey-flag{
+    width: 255px;
+    height: 150px;
+    background-color: #C60C30;
+    position: relative;
+}
+
+.turkey-flag .white-circle{
+    width: 85px;
+    height: 85px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 32px;
+    left: 40px;
+
+    &::after{
+        content:"";
+        width: 66px;
+        height: 66px;
+        background-color: #C60C30;
+        border-radius: 50%;
+        position: absolute;
+        left: 22px;
+        top: 9px;
+    }
+}
+
+.turkey-star{
+    width: 0px;
+    height: 0px;
+
+    position: relative;
+    left: 122px;
+    top:56px;
+
+
+    border-right:  .5em solid transparent;
+    border-bottom: 1.5em  solid white;
+    border-left:   .5em solid transparent;
+
+    font-size: 8px;
+    transform: rotate(-24deg);
+
+    &::before, &::after{
+        content: '';
+      
+        display: block;
+        width: 0;
+        height: 0;
+
+        position: absolute;
+        top: 1.3em;
+        left: -2em;
+      
+        border-right:  2em solid transparent;
+        border-bottom: 1.4em  solid white;
+        border-left:   2em solid transparent;
+      
+        transform: rotate(-35deg);
+    }
+
+    &::after{
+        transform: rotate(35deg);
+    }
+}
+
+/* UNITED ARAB EMIRATES */
+.flag.emirates{
+    width: 225px;
+    height: 40px;
+    background-color: white;
+    border-top: 40px solid #009E49;
+    border-bottom: 40px solid black;
+    border-right: .5px solid lightgray;
+    border-left: .5px solid lightgray;
+
+    position: relative;
+}
+
+.flag.emirates div{
+    width: 60px;
+    height: 120px;
+    background-color: #CE1126;
+
+    position: absolute;
+    top: -40px;
+    left: -1px;
+}
+
+/* KUWAIT */
+.flag.kuwait{
+    width: 225px;
+    height: 40px;
+    background-color: white;
+    border-top: 40px solid #007A3D;
+    border-bottom: 40px solid #CE1126;
+    border-right: .5px solid lightgray;
+    border-left: .5px solid lightgray;
+
+    position: relative;
+}
+
+.flag.kuwait div{
+    width: 60px;
+    height: 40px;
+    background-color: black;
+
+    position: absolute;
+    left: -1px;
+
+    &::before {
+        content: "";
+        width: 0px;
+        height: 0px;
+
+        border-left: 60px solid black;
+        border-top: 0px solid transparent;
+        border-top: 40px solid transparent;
+    }
+
+    &::after {
+        content: "";
+        width: 0px;
+        height: 0px;
+
+        border-left: 60px solid black;
+        border-bottom: 40px solid transparent;
+        border-top: 0px solid transparent;
+
+        position: relative;
+        top: 22.5px;
+        left: -60px;
+    }
+}

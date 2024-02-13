@@ -1,0 +1,47 @@
+/* PALAUS */
+.palaus-flag{
+    height: 150px;
+    width: 225px;
+    background-color: #65ABD2;
+    position: relative;
+}
+
+.palaus-flag div{
+    width: 80px;
+    height: 80px;
+    background-color: #FADF4B;
+    border-radius: 50%;
+    position: relative;
+    top: 25%;
+    left: 25%;
+}
+
+/* NZ REDPEAK */
+
+.redpeak-border{
+ width: 225px;
+ height: 124px;
+ border: .5px solid lightgray;
+}
+
+.redpeak-flag{
+    width: 0; 
+    height: 0; 
+    border-right: 113px solid #1111C4;
+    border-left: 113px solid black;
+    
+    border-bottom: 124px solid white;
+    position: relative;
+}
+
+.redpeak-flag div{
+    width: 0; 
+    height: 0; 
+    border-right: 60px solid transparent;
+    border-left: 60px solid transparent;
+    
+    border-bottom: 64px solid #BB271A;
+    position: relative;
+    top: 60px;
+    right: 60px
+}

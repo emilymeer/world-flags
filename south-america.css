@@ -1,0 +1,54 @@
+/* PERU */
+.peru-flag{
+    width: 225px;
+    height: 150px;
+    background-color: #C72F2E;
+    position: relative;
+    border-color: lightgray;
+    border-style: solid;
+    border-width: .5px;
+}
+
+.peru-flag div{
+    width: 75px;
+    height: 150px;
+    background-color: white;
+    position: relative;
+    left: 33% 
+}
+
+/* BOLIVIA */
+.bolivia-flag{
+    width: 225px;
+    height: 50px;
+    background-color: #F5E44C;
+    border-top: 50px solid #C43C2C;
+    border-bottom: 50px solid #34773C;
+}
+
+/* COLOMBIA */
+.colombia-flag{
+    width: 225px;
+    height: 35px;
+    background-color: #003893;
+    border-top: 80px solid #FCD116;
+    border-bottom: 35px solid #CE1126;
+}
+
+/* TRINIDAD AND TOBAGO */
+.flag.trinidad-and-tobago{
+    width: 225px;
+    height: 150px;
+    background: linear-gradient(
+        45deg,
+        #da1332 105px,
+        #fff 105px,
+        #fff 115px,
+        #000 10px,
+        #000 150px,
+        #fff 150px,
+        #fff 160px,
+        #da1332 0
+    );
+    box-shadow: .1px .1px 1px 1px lightgray;
+}

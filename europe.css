@@ -1,0 +1,449 @@
+/* UKRAINE */
+.ukraine-flag{
+    width: 225px;
+    height: 150px;
+    background-color: #F8D748 ;
+}
+
+.ukraine-flag div{
+    width: 225px;
+    height: 75px;
+    background-color: #255AB5;
+}
+
+/* LATVIA */
+.latvia-flag {
+    width: 225px;
+    height: 120px;
+    background-color: #92383C;
+    position: relative;
+    border-color: lightgray;
+    border-style: solid;
+    border-width: .5px;
+}
+
+.latvia-flag div{
+    width: 225px;
+    height: 30px;
+    background-color: white;
+    position: relative;
+    top: 36%;
+}
+
+/* POLAND */
+.poland-flag{
+    width: 225px;
+    height: 150px;
+    background-color: #CA3142 ;
+    border-color: lightgray;
+    border-style: solid;
+    border-width: .5px;
+}
+
+.poland-flag div{
+    width: 225px;
+    height: 75px;
+    background-color: white;
+}
+
+/* MONACO */
+.monaco-flag{
+    width: 200px;
+    height: 150px;
+    background-color: white ;
+    border: .5px solid lightgray;
+}
+
+.monaco-flag div{
+    width: 200px;
+    height: 75px;
+    background-color: #BD2D2F;
+}
+
+/* AUSTRIA */
+.austria-flag {
+    width: 225px;
+    height: 150px;
+    background-color: #C72F2E;
+    position: relative;
+    border: .5px solid lightgray;
+}
+
+.austria-flag div{
+    width: 225px;
+    height: 50px;
+    background-color: white;
+    position: relative;
+    top: 33%;
+}
+
+/* FINLAND */
+.finland-flag {
+    width: 225px;
+    height: 140px;
+    background-color: white;
+    position: absolute;
+    border-color: lightgray;
+    border-style: solid;
+    border-width: .5px;
+}
+
+.finland-flag .stripe-horizontal{
+    width: 225px;
+    height: 40px;
+    background-color: #13347B;
+    position: relative;
+    top: 36%;
+}
+
+.finland-flag .stripe-vertical{
+    width: 40px;
+    height: 140px;
+    background-color: #13347B;
+    position: relative;
+    top: -28.5%;
+    left: 25%;
+}
+
+/* SWEDEN */
+.sweden-flag {
+    width: 225px;
+    height: 140px;
+    background-color: #21518E;
+    position: absolute;
+    border-color: lightgray;
+    border-style: solid;
+    border-width: .5px;
+}
+
+.sweden-flag .stripe-horizontal{
+    width: 225px;
+    height: 30px;
+    background-color: #F6CD45;
+    position: relative;
+    top: 36%;
+}
+
+.sweden-flag .stripe-vertical{
+    width: 30px;
+    height: 140px;
+    background-color: #F6CD45;
+    position: relative;
+    top: -21.5%;
+    left: 28%;
+}
+
+/* BELGIUM */
+.belgium-flag{
+    width: 60px;
+    height: 150px;
+    background-color: #f6e161 ;
+    border-left: 60px solid black;
+    border-right: 60px solid #DA3F41;
+
+}
+
+/* Switzerland */
+.switzerland-flag {
+    width: 180px;
+    height: 160px;
+    background-color: red;
+    position: relative;
+}
+
+.switzerland-flag .stripe-horizontal{
+    width: 30px;
+    min-height: 90px;
+    background-color: white;
+    position: relative;
+    top: 35px;
+    left: 75px;
+}
+
+.switzerland-flag .stripe-vertical{
+    width: 90px;
+    min-height: 30px;
+    background-color: white;
+    position: relative;
+    top: -24px;
+    left: 45px;
+}
+
+/* GREECE */
+.greece-flag{
+    width: 225px;
+    height: 144px;
+    border: .5px solid lightgray;
+}
+
+.greece-flag-square {
+    width: 80px;
+    height: 80px;
+    background-color: #001489;
+    position: relative;
+    float:left;
+}
+
+.greece-flag-square .stripe-horizontal{
+    width: 16px;
+    min-height: 80px;
+    background-color: white;
+    position: relative;
+    left: 32px;
+}
+
+.greece-flag-square .stripe-vertical{
+    width: 80px;
+    min-height: 16px;
+    background-color: white;
+    position: relative;
+    top: -48px;
+}
+
+.blue-stripe-top{
+    height: 16px;
+    width: 145px;
+    background-color: #001489;
+    float: right;
+}
+
+.white-stripe-top{
+    height: 16px;
+    width: 145px;
+    background-color: white;
+    float: right;
+}
+
+.blue-stripe-bottom{
+    height: 16px;
+    width: 225px;
+    background-color: #001489;
+    float: right;
+}
+
+.white-stripe-bottom{
+    height: 16px;
+    width: 225px;
+    background-color: white;
+    float: right;
+}
+
+/* NETHERLANDS */
+.netherlands-flag {
+    width: 225px;
+    height: 150px;
+    background-color: #CE1126;
+    position: relative;
+    border: .5px solid lightgray;
+}
+
+.netherlands-flag .white-stripe{
+    width: 225px;
+    height: 50px;
+    background-color: white;
+    position: relative;
+    top: 33%;
+}
+
+.netherlands-flag .blue-stripe{
+    width: 225px;
+    height: 50px;
+    background-color: #21468b;
+    position: relative;
+    top: 50px;
+}
+
+/* BULGARIA */
+.bulgaria-border{
+    width: 225px;
+    height: 135px;
+    border: .5px solid lightgray
+}
+.bulgaria-flag{
+    width: 225px;
+    height: 45px;
+    background-color: #429471;
+    border-top: 45px solid white;
+    border-bottom: 45px solid #C53925;
+}
+
+/* ITALY */
+.italy-flag{
+    width: 75px;
+    height: 150px;
+    background-color: white;
+    border-right: 75px solid #CE2B37;
+    border-left: 75px solid #009246;
+    border-top: .5px solid lightgray;
+    border-bottom: .5px solid lightgray;
+
+}
+
+/* IRELAND */
+.ireland-flag{
+    width: 75px;
+    height: 125px;
+    background-color: white;
+    border-right: 75px solid #FF7900;
+    border-left: 75px solid #009B48;
+    border-top: .5px solid lightgray;
+    border-bottom: .5px solid lightgray;
+}
+
+/* ROMANIA */
+.romania-flag{
+    width: 75px;
+    height: 150px;
+    background-color: #FCD116;
+    border-left: 75px solid #002B7F;
+    border-right: 75px solid #CE1126;
+}
+
+/* FRANCE */
+.france-flag{
+    width: 75px;
+    height: 150px;
+    background-color: white;
+    border-left: 75px solid #002B7F;
+    border-right: 75px solid #ED2939;
+    border-top: .5px solid lightgray;
+    border-bottom: .5px solid lightgray;
+
+}
+
+/* GERMANY */
+.germany-flag{
+    width: 225px;
+    height: 45px;
+    background-color: #DD0000;
+    border-top: 45px solid black;
+    border-bottom:45px solid #FFCE00;
+}
+
+/* CZECH REPUBLIC */
+.czech-flag{
+    width: 225px;
+    height: 74px;
+    background-color: white;
+    border-bottom: 75px solid #DD0000;
+    border-top: .5px solid lightgray;
+    border-right: .5px solid lightgray;
+}
+
+.czech-flag div{
+    width: 0;
+    height: 0;
+
+    border-left: 115px solid #11457E;
+    border-top: 75px solid transparent;
+    border-bottom: 75px solid transparent;
+}
+
+/* ICELAND */
+.iceland-flag{
+    width: 215px;
+    height: 150px;
+    background-color: #003897;
+    position: relative;
+    border: .5px solid lightgray;
+}
+
+.iceland-flag .white-stripe-horizontal{
+    width: 215px;
+    height: 30px;
+    background-color: white;
+    position: absolute;
+    top: 62.5px;
+}
+
+.iceland-flag .white-stripe-vertical{
+    width: 30px;
+    height: 150px;
+    background-color: white;
+    position: absolute;
+    left: 65px;
+}
+
+.iceland-flag .red-stripe-horizontal{
+    width: 215px;
+    height: 15px;
+    background-color: red;
+    position: absolute;
+    top: 69.5px;
+}
+
+.iceland-flag .red-stripe-vertical{
+    width: 15px;
+    height: 150px;
+    background-color: red;
+    position: absolute;
+    left: 72.5px;
+}
+
+/* DENMARK */
+.denmark-flag{
+    width: 215px;
+    height: 150px;
+    background-color: #C60C30;
+    position: relative;
+    border: .5px solid lightgray;
+}
+
+.denmark-flag .white-stripe-horizontal{
+    width: 215px;
+    height: 20px;
+    background-color: white;
+    position: absolute;
+    top: 65px;
+}
+
+.denmark-flag .white-stripe-vertical{
+    width: 20px;
+    height: 150px;
+    background-color: white;
+    position: absolute;
+    left: 60px;
+}
+
+/* HUNGARY */
+.hungary-flag{
+    width: 225px;
+    height: 40px;
+    background-color: white;
+    border-top: 40px solid #CE1126;
+    border-bottom: 40px solid #008751;
+    border-right: .5px solid lightgray;
+    border-left: .5px solid lightgray;
+}
+
+/* LUXEMBOURG */
+.flag.luxembourg{
+    width: 225px;
+    height: 45px;
+    background-color: white;
+    border-top: 45px solid #ED2939;
+    border-bottom: 45px solid #00A1DE;
+    border-right: .5px solid lightgray;
+    border-left: .5px solid lightgray;
+}
+
+/* LITHUANIA */
+.flag.lithuania{
+    width: 225px;
+    height: 45px;
+    background-color: #006A44;
+    border-top: 45px solid #FDB913;
+    border-bottom: 45px solid #C1272D;
+    border-right: .5px solid lightgray;
+    border-left: .5px solid lightgray;
+}
+
+/* ESTONIA */
+.flag.estonia{
+    width: 225px;
+    height: 45px;
+    background-color: black;
+    border-top: 45px solid #4891D9;
+    border-bottom: 45px solid white;
+    box-shadow: .1px .1px .1px 1px lightgray;
+}

@@ -1,0 +1,42 @@
+/* FLAGS */
+
+/* BAHAMAS */
+.bahamas-flag {
+    width: 225px;
+    height: 40px;
+    background-color: #F6E161;
+    border-top: 40px solid #4CA8C5;
+    border-bottom: 40px solid #4CA8C5;
+    position: relative;
+}
+
+.triangle-right {
+    width: 0; 
+    height: 0; 
+    border-top: 60px solid transparent;
+    border-bottom: 60px solid transparent;
+    
+    border-left: 90px solid black;
+
+    position: relative;
+    top: -100%;
+}
+
+/* COSTA RICA */
+
+.costa-rica-flag{
+    width: 225px;
+    height: 132px;
+    background-color: #002B7F;
+    position: relative;
+}
+
+.costa-rica-flag div{
+    width: 225px;
+    height: 44px;
+    background-color: #D52B1E;
+    border-top: 22px solid white;
+    border-bottom: 22px solid white;
+    position: relative;
+    top: 22px;
+}
